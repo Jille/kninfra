@@ -14,7 +14,7 @@ def find_name_for_user(first_name, last_name):
             inf = inf.replace('de ', 'd ')
             inf = inf.replace('der ', 'd ')
             inf = inf.replace('den ', 'd ')
-          else:
+        else:
             inf = ''
             ln = s
         return (clean(inf), clean(ln))
